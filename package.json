@@ -1,0 +1,23 @@
+{
+  "name": "@jawdat6/fixgraph-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for FixGraph — search 25,000+ community-verified engineering fixes",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fixgraph-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "license": "MIT",
+  "keywords": ["mcp", "fixgraph", "debugging", "engineering", "ai"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jawdat6/fixgraph-mcp"
+  }
+}
