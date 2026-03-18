@@ -2,6 +2,8 @@
 
 Search and contribute to [FixGraph](https://fixgraph.netlify.app) — 25,000+ community-verified engineering fixes — directly from any MCP-compatible AI assistant.
 
+[![fixgraph MCP server](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp/badges/card.svg)](https://glama.ai/mcp/servers/jawdat6/fixgraph-mcp)
+
 ## Tools
 
 | Tool | Description |
