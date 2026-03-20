@@ -15,7 +15,7 @@ const API_KEY  = process.env.FIXGRAPH_API_KEY || '';
 const headers = (extra = {}) => ({
   'Accept': 'application/json',
   'Content-Type': 'application/json',
-  'User-Agent': 'fixgraph-mcp/0.1.0',
+  'User-Agent': 'fixgraph-mcp/1.0.3',
   ...(API_KEY ? { 'Authorization': `Bearer ${API_KEY}` } : {}),
   ...extra,
 });
@@ -93,7 +93,7 @@ async function submitFix({ issue_id, title, root_cause, steps, validation, risk_
 // ── Server setup ──────────────────────────────────────────────────────────────
 
 const server = new Server(
-  { name: 'fixgraph', version: '0.1.0' },
+  { name: 'fixgraph-mcp', version: '1.0.3' },
   { capabilities: { tools: {} } }
 );
 
