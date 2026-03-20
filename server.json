@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jawdat6/fixgraph-mcp",
-  "description": "Search 25,000+ verified engineering fixes by error message, technology, or environment. Returns structured fixes with trust scores, success rates, and step-by-step solutions. Built for AI agents and developers.",
+  "description": "Search 25,000+ verified engineering fixes by error, technology, or environment. For developers and AI agents.",
   "repository": {
     "url": "https://github.com/jawdat6/fixgraph-mcp",
     "source": "github"
