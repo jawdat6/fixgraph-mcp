@@ -15,6 +15,7 @@
     "node-fetch": "^3.3.2"
   },
   "license": "MIT",
+  "mcpName": "io.github.jawdat6/fixgraph-mcp",
   "keywords": ["mcp", "fixgraph", "debugging", "engineering", "ai"],
   "repository": {
     "type": "git",
