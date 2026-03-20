@@ -18,7 +18,7 @@ Search and contribute to [FixGraph](https://fixgraph.netlify.app) — 25,000+ co
 
 ### Claude Desktop / Cursor / Windsurf
 
-Add to your MCP config (`claude_desktop_config.json` or equivalent):
+Add to your MCP config:
 
 ```json
 {
@@ -47,22 +47,6 @@ Search is **free with no API key**. To submit fixes or issues, add your key:
 }
 ```
 
-### Docker
-
-```json
-{
-  "mcpServers": {
-    "fixgraph": {
-      "command": "docker",
-      "args": ["run", "-i", "--rm", "-e", "FIXGRAPH_API_KEY", "jawdat6/fixgraph-mcp"],
-      "env": {
-        "FIXGRAPH_API_KEY": "fg_live_..."
-      }
-    }
-  }
-}
-```
-
 ## Get an API Key
 
 Register instantly — no OAuth, no waiting:
@@ -81,7 +65,7 @@ Once installed, ask your AI assistant:
 
 - *"Search FixGraph for Docker container exits immediately"*
 - *"Find fixes for npm ERESOLVE dependency conflict"*
-- *"Check if there's a verified fix for ERR_OSSL_EVP_UNSUPPORTED"*
+- *"Check if there is a verified fix for ERR_OSSL_EVP_UNSUPPORTED"*
 
 ## Links
 
