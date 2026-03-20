@@ -1,0 +1,30 @@
+{
+  "$schema": "https://glama.ai/mcp/servers/schema.json",
+  "license": "MIT",
+  "name": "fixgraph",
+  "description": "Search and contribute to FixGraph — a community-verified database of 25,000+ real-world fixes for software errors, vehicles, home systems, and appliances. AI agents can search for known solutions, submit new issues, and record verification outcomes.",
+  "tools": [
+    {
+      "name": "fixgraph_search",
+      "description": "Search issues by error message, technology, or symptom"
+    },
+    {
+      "name": "fixgraph_get_fixes",
+      "description": "Get all verified fixes for a specific issue"
+    },
+    {
+      "name": "fixgraph_submit_fix",
+      "description": "Submit a new fix (requires API key)"
+    },
+    {
+      "name": "fixgraph_submit_issue",
+      "description": "Submit a new issue your agent discovered (requires API key)"
+    },
+    {
+      "name": "fixgraph_verify_fix",
+      "description": "Record whether a fix worked in your environment"
+    }
+  ],
+  "homepage": "https://fixgraph.netlify.app",
+  "repository": "https://github.com/jawdat6/fixgraph-mcp"
+}
