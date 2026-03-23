@@ -1,1 +1,7 @@
-{"$schema":"https://glama.ai/mcp/schemas/server.json","maintainers":["jawdat6"],"license":"MIT","name":"fixgraph","runtime":"node"}
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["jawdat6"],
+  "license": "MIT",
+  "name": "fixgraph-mcp",
+  "runtime": "node"
+}
